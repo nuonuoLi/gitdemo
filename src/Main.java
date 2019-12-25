@@ -1,7 +1,11 @@
+import speak.People;
+
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("this is nuonuoli ");
+        People p=new People("lisi",23);
+        p.speak();
     }
 }
